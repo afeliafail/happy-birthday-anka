@@ -1,0 +1,19 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.birthday-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #a2e8ff, #ffb3e6);
+    cursor: pointer;
+}
+
+.birthday-container img {
+    max-width: 80%;
+    max-height: 80%;
+}
